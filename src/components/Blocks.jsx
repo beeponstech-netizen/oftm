@@ -54,7 +54,7 @@ export default function Blocks({ blocks }) {
             return (
               <figure key={i} style={{ margin: 0 }}>
                 <img
-                  src={b.src}
+                  src={import.meta.env.BASE_URL + b.src}
                   alt={b.caption || ''}
                   style={{ width: '100%', borderRadius: 14, border: '1px solid var(--border-soft)' }}
                 />

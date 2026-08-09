@@ -6,7 +6,7 @@
  *  Pour modifier un texte : trouve la leçon (par son `id`) et édite ses `blocks`.
  *  Pour brancher une vidéo : mets `video: '/videos/xxx.mp4'` (ou une URL) sur la leçon.
  *  Pour brancher une image dans le texte : remplace un bloc { type: 'media', ... }
- *  par { type: 'image', src: '/images/xxx.png', caption: '...' }.
+ *  par { type: 'image', src: 'images/xxx.png', caption: '...' }.
  *
  *  Types de blocs :
  *   { type: 'p',   text }                       → paragraphe (**gras** supporté)
@@ -62,6 +62,7 @@ export const course = {
             { type: 'h3', text: 'Pourquoi un compte personnel' },
             { type: 'p', text: 'Utiliser un compte agence pur devient saturé. Les modèles fonctionnent beaucoup par association : un simple logo peut te faire catégoriser automatiquement comme une arnaque dans leur tête. Un visage, lui, change tout.' },
             { type: 'p', text: 'J’ai signé des modèles qui ne sont même pas au courant que j’ai un compte d’agence — elles ont eu confiance parce qu’elles parlaient à une **vraie personne**. Ton compte personnel doit idéalement remplacer la landing page de ton compte agence.' },
+            { type: 'callout', variant: 'tip', title: 'Mon setup de crédibilité — Emma My Lady', text: 'Pour ma part, j’avais un compte Instagram agence au nom d’Emma My Lady. Quand je prospectais, je me présentais comme le collaborateur d’Emma, pas comme le patron de l’agence. Ça mettait les modèles en confiance : elles parlaient à un homme qui travaillait "pour" une femme, ce qui paraissait plus légitime et moins agressif qu’un gars seul derrière un logo. Tu peux adapter ce schéma : un compte agence au nom d’une persona féminine + tu te positionnes comme son collaborateur.' },
             { type: 'h3', text: 'Les barrières à l’entrée' },
             { type: 'ul', items: [
               'Montrer ton visage. Ce n’est pas obligatoire d’afficher publiquement ton lien avec OnlyFans, mais l’assumer aide énormément.',
@@ -216,10 +217,10 @@ export const course = {
             { type: 'p', text: 'Pendant que j’écrivais cette formation, j’ai envoyé un message pour prouver l’efficacité de cette méthode et j’ai eu une réponse en 3 minutes. Envoyé depuis un compte personnel sans contenu posté, juste une photo de profil et une bannière.' },
             { type: 'h3', text: 'Exemples de screenshots de revenus' },
             { type: 'p', text: 'Voici des exemples de ce que tu peux montrer. Tout est modifiable : le montant, la date, le top %, la photo en bas à droite. Adapte-les à ta situation.' },
-            { type: 'image', src: '/images/0a382e4363e047de88f38ca5a600f2c3.jpg', caption: 'Exemple 1 — Screenshot de revenus OnlyFans (montant, top %, pending)' },
-            { type: 'image', src: '/images/2d794345546c4e9e811cdb197a73277c.jpg', caption: 'Exemple 2 — Screenshot de revenus OnlyFans (montant, top %, pending)' },
-            { type: 'image', src: '/images/dc52ef1b027c4f7380b9c4b5b2136bf7.jpg', caption: 'Exemple 3 — Screenshot de revenus OnlyFans (montant, top %, pending)' },
-            { type: 'image', src: '/images/dc52ef1b027c4f7380b9c4b5b2136bf7-1.jpg', caption: 'Exemple 4 — Screenshot de revenus OnlyFans (montant, top %, pending)' },
+            { type: 'image', src: 'images/0a382e4363e047de88f38ca5a600f2c3.jpg', caption: 'Exemple 1 — Screenshot de revenus OnlyFans (montant, top %, pending)' },
+            { type: 'image', src: 'images/2d794345546c4e9e811cdb197a73277c.jpg', caption: 'Exemple 2 — Screenshot de revenus OnlyFans (montant, top %, pending)' },
+            { type: 'image', src: 'images/dc52ef1b027c4f7380b9c4b5b2136bf7.jpg', caption: 'Exemple 3 — Screenshot de revenus OnlyFans (montant, top %, pending)' },
+            { type: 'image', src: 'images/dc52ef1b027c4f7380b9c4b5b2136bf7-1.jpg', caption: 'Exemple 4 — Screenshot de revenus OnlyFans (montant, top %, pending)' },
           ],
         },
         {
@@ -274,6 +275,13 @@ export const course = {
           lead: 'Personnaliser le contrat Word et l’envoyer proprement via DocuSign.',
           blocks: [
             { type: 'p', text: 'Une fois la modèle prête à signer, récupère son **nom complet** et son **adresse e-mail**.' },
+            { type: 'h3', text: 'Télécharger les contrats' },
+            { type: 'p', text: 'Trois versions sont fournies, choisis celle qui correspond à la langue de la modèle :' },
+            { type: 'ul', items: [
+              '**[Contrat — Français](https://uploads.teachablecdn.com/attachments/7Lj3sB7bR1S1DF9zay3m_Contrat+Formation+-+FR.docx)** (.docx)',
+              '**[Contrat — Anglais](https://uploads.teachablecdn.com/attachments/sRFOeW19TOiFIkLH2dML_Contrat+Formation+-+EN.docx)** (.docx)',
+              '**[Contrat — Espagnol](https://uploads.teachablecdn.com/attachments/9eLAn8fASaKqyQQUTdk3_Contrat+Formation+-+ES.docx)** (.docx)',
+            ]},
             { type: 'h3', text: 'Modifier le contrat' },
             { type: 'ul', items: [
               'Ouvre le document Word du contrat (versions FR et EN fournies).',
@@ -310,7 +318,7 @@ export const course = {
               'Planifie ses créneaux de création de contenu, chaque jour, pour pouvoir la tenir responsable.',
               'Préviens-la du questionnaire à remplir — indispensable pour construire sa liste de contenu.',
             ]},
-            { type: 'p', text: 'Compte OnlyFans : [onlyfans.com](https://onlyfans.com)  •  Form d’onboarding : [forms.gle/FgppsaWY96oyMrNAA](https://forms.gle/FgppsaWY96oyMrNAA)  •  Questionnaire contenu : [forms.gle/zhM5DGeDaD17S8Mi8](https://forms.gle/zhM5DGeDaD17S8Mi8)' },
+            { type: 'p', text: 'Compte OnlyFans : [onlyfans.com](https://onlyfans.com)  •  Form d’onboarding (Milady) : [docs.google.com/forms — Milady Onboarding](https://docs.google.com/forms/d/e/1FAIpQLScEMkKu8jyKjc9AaHrMODQ5wiRMJ-z_D08c4ytKBCAl4CzXBA/viewform)  •  Questionnaire contenu : [forms.gle/zhM5DGeDaD17S8Mi8](https://forms.gle/zhM5DGeDaD17S8Mi8)' },
             { type: 'p', text: 'Une fois rempli, va sur Monday.com et crée la liste de contenu à produire pour la semaine.' },
           ],
         },
@@ -451,10 +459,10 @@ export const course = {
             ]},
             { type: 'p', text: 'J’ai un éditeur payé 4k/mois pour 20 vidéos/jour (recruté sur @OFM_Hire_Job). Il doit connaître les trends actuelles.' },
             { type: 'callout', variant: 'tip', title: 'Cross-reposting', text: 'Partage en story les reels de tes comptes secondaires entre eux, max 2 reels/story/jour pour ne pas avoir l’air spam. Organisé sur Monday.com.' },
-            { type: 'image', src: '/images/cf6c9670a831481fbd3079794b2416a1.jpg', caption: 'Organisation cross-reposting sur Monday.com (1)' },
-            { type: 'image', src: '/images/5695c29acca04ceeb0f85f3a47fae147.jpg', caption: 'Organisation cross-reposting sur Monday.com (2)' },
-            { type: 'image', src: '/images/3212ee541c854d54abcfce470d64d42d.jpg', caption: 'Organisation cross-reposting sur Monday.com (3)' },
-            { type: 'image', src: '/images/3212ee541c854d54abcfce470d64d42d-1.jpg', caption: 'Organisation cross-reposting sur Monday.com (4)' },
+            { type: 'image', src: 'images/cf6c9670a831481fbd3079794b2416a1.jpg', caption: 'Organisation cross-reposting sur Monday.com (1)' },
+            { type: 'image', src: 'images/5695c29acca04ceeb0f85f3a47fae147.jpg', caption: 'Organisation cross-reposting sur Monday.com (2)' },
+            { type: 'image', src: 'images/3212ee541c854d54abcfce470d64d42d.jpg', caption: 'Organisation cross-reposting sur Monday.com (3)' },
+            { type: 'image', src: 'images/3212ee541c854d54abcfce470d64d42d-1.jpg', caption: 'Organisation cross-reposting sur Monday.com (4)' },
           ],
         },
         {
