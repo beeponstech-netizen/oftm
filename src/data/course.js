@@ -25,7 +25,7 @@
 
 export const course = {
   title: 'La Formation OFM',
-  subtitle: 'De zéro à une agence à 6 chiffres',
+  subtitle: 'De zéro à 18k€/mois avec OnlyFans Management',
   sections: [
     /* ===================== INTRODUCTION ===================== */
     {
@@ -173,12 +173,22 @@ export const course = {
             { type: 'h3', text: '2. Découvrir ses objectifs' },
             { type: 'p', text: 'Demande un objectif financier mensuel, et surtout ce qui la motive (liberté, voiture, proches). Ce "pourquoi" devient ton meilleur argument.' },
             { type: 'h3', text: '3. Te positionner en solution' },
-            { type: 'p', text: 'Dis que tu ne signes pas une modèle à moins qu’elle ait le potentiel de faire minimum 50 000 $/mois. Tu n’as pas besoin d’elle — c’est elle qui a besoin de toi. Sois sélectif : les gens veulent ce que les autres ne peuvent pas avoir.' },
+            { type: 'p', text: 'Dis que tu ne signes pas une modèle à moins qu’elle ait le potentiel de faire minimum 17-18k€/mois. Tu n’as pas besoin d’elle — c’est elle qui a besoin de toi. Sois sélectif : les gens veulent ce que les autres ne peuvent pas avoir.' },
             { type: 'h3', text: '4. Fixer les attentes' },
             { type: 'p', text: 'Son seul job désormais : créer du contenu (2-3h/jour). Dis que tu te sépares des modèles qui ne fournissent pas, même quand elles gagnent bien. C’est sa chance ; si elle ne bosse pas, tu ne la gardes pas.' },
             { type: 'h3', text: '5. Proposer le contrat' },
             { type: 'p', text: 'Demande sa date de départ idéale, récupère son e-mail, envoie le contrat. Si tu es en appel, fais signer pendant.' },
             { type: 'callout', variant: 'tip', title: 'Si elle doute', text: 'Propose un contrat de 1 mois : tu réduis son engagement, augmentes tes chances de signer, et montres que tu es à l’aise de prouver ta valeur avant un partenariat long.' },
+            { type: 'h3', text: '6. Définir la niche — l’étape que tout le monde zappe' },
+            { type: 'p', text: 'Avant de lancer le moindre contenu, vous devez vous mettre d’accord sur une niche à exploiter. Le but : que quand un mec scroll son feed, il la reconnaisse en **moins de 2 secondes**. Pas une fille de plus parmi des milliers — un truc distinctif qui la rend immédiatement identifiable.' },
+            { type: 'ul', items: [
+              'Si elle est rousse : mets ça en avant à fond, c\'est un marqueur visuel immédiat.',
+              'Si elle a un physique particulier (ronde, très mince, très grande) : joue dessus au lieu de le cacher.',
+              'Un accessoire reconnaissable : un masque, des lunettes, une couleur de cheveux signature, un style de tenue récurrent.',
+              'Un context fixe : toujours filmée dans un ascenseur, au bureau, dans la même pièce, avec le même angle.',
+              'Une action récurrente : toujours les cheveux attachés d\'une certaine façon, toujours la même intro de vidéo.',
+            ]},
+            { type: 'p', text: 'La niche c\'est ce qui fait arrêter le scroll. Sans niche, tu es une fille parmi 10 000. Avec niche, tu es LA fille qui [X]. C\'est la différence entre 1 000 vues et 100 000 vues sur le même contenu.' },
             { type: 'h3', text: 'Bonus — apporter de la valeur d’abord' },
             { type: 'ul', items: [
               'Offre du trafic gratuit via un lien de tracking : les chiffres parlent.',
@@ -199,7 +209,7 @@ export const course = {
             { type: 'h3', text: 'Promoteurs & propriétaires de clubs' },
             { type: 'p', text: 'Ils sont entourés de filles qui font la fête, souvent réceptives à OF. Contacte les filles taguées par les boîtes, ou fais passer le message via ton entourage / tes modèles (elles partagent la commission).' },
             { type: 'h3', text: 'Les filles populaires comme relais' },
-            { type: 'p', text: 'L’approche fille-à-fille rassure et fidélise : une modèle respecte plus les délais avec une amie / manageuse qu’avec un homme sur internet. Beaucoup de modèles refusent les agences dirigées par des hommes — ne rate pas une signature à fort potentiel (une modèle à 50k Insta peut rapporter 100k+/mois) par manque d’organisation.' },
+            { type: 'p', text: 'L’approche fille-à-fille rassure et fidélise : une modèle respecte plus les délais avec une amie / manageuse qu’avec un homme sur internet. Beaucoup de modèles refusent les agences dirigées par des hommes — ne rate pas une signature à fort potentiel (une modèle à 50k Insta peut rapporter 17-18k€/mois) par manque d’organisation.' },
           ],
         },
         {
@@ -247,7 +257,7 @@ export const course = {
             { type: 'h3', text: 'L’objection finale' },
             { type: 'msg', text: 'Regarde le meilleur et le pire des cas. Meilleur : on te fait gagner beaucoup plus et tout est parfait. Pire : on t’offre tous nos services gratuitement et tu ne perds rien à part 4 semaines.' },
             { type: 'h3', text: 'Relance chaque semaine' },
-            { type: 'p', text: 'Chaque semaine, relance toutes tes conversations (passe ton compte en pro pour les retrouver dans "général"). J’ai signé la modèle avec qui je fais 6 chiffres/mois après l’avoir relancée 4 fois. Si pas de réponse, supprime ta dernière relance et renvoies-en une la semaine d’après.' },
+            { type: 'p', text: 'Chaque semaine, relance toutes tes conversations (passe ton compte en pro pour les retrouver dans "général"). J’ai signé la modèle avec qui je fais 17-18k€/mois après l’avoir relancée 4 fois. Si pas de réponse, supprime ta dernière relance et renvoies-en une la semaine d’après.' },
           ],
         },
         {
@@ -318,7 +328,7 @@ export const course = {
               'Planifie ses créneaux de création de contenu, chaque jour, pour pouvoir la tenir responsable.',
               'Préviens-la du questionnaire à remplir — indispensable pour construire sa liste de contenu.',
             ]},
-            { type: 'p', text: 'Compte OnlyFans : [onlyfans.com](https://onlyfans.com)  •  Form d’onboarding (Milady) : [docs.google.com/forms — Milady Onboarding](https://docs.google.com/forms/d/e/1FAIpQLScEMkKu8jyKjc9AaHrMODQ5wiRMJ-z_D08c4ytKBCAl4CzXBA/viewform)  •  Questionnaire contenu : [forms.gle/zhM5DGeDaD17S8Mi8](https://forms.gle/zhM5DGeDaD17S8Mi8)' },
+            { type: 'p', text: 'Compte OnlyFans : [onlyfans.com](https://onlyfans.com)  •  Form d’onboarding (Milady) : [docs.google.com/forms — Milady Onboarding](https://docs.google.com/forms/d/e/1FAIpQLScEMkKu8jyKjc9AaHrMODQ5wiRMJ-z_D08c4ytKBCAl4CzXBA/viewform)' },
             { type: 'p', text: 'Une fois rempli, va sur Monday.com et crée la liste de contenu à produire pour la semaine.' },
           ],
         },
@@ -427,7 +437,7 @@ export const course = {
           video: null,
           lead: 'Le meilleur ROI temps/effort. Rien ne s’en rapproche aujourd’hui.',
           blocks: [
-            { type: 'p', text: 'Comme TikTok mais en mieux : quand tes vidéos deviennent virales, elles continuent de croître et convertissent mieux (lien direct en bio / story). Le mois dernier, cette méthode m’a rapporté plus de 250 000 $.' },
+            { type: 'p', text: 'Comme TikTok mais en mieux : quand tes vidéos deviennent virales, elles continuent de croître et convertissent mieux (lien direct en bio / story). Cette méthode m’a rapporté plus de 18k€ le mois dernier.' },
             { type: 'callout', variant: 'warn', title: 'La régularité est la clé', text: 'Tu ne peux pas manquer un seul jour. C’est le facteur numéro un.' },
             { type: 'h3', text: 'Positionnement — garde la rareté' },
             { type: 'p', text: 'Si ta modèle est trop provocante sur Insta, tu ne pourras plus vendre cher ni jouer la rareté. Fais penser que tu ne ferais jamais de nu, que la lingerie sur le feed OF est déjà une étape énorme. Puis construis la relation et vends le nu bien plus cher.' },
@@ -441,7 +451,7 @@ export const course = {
         },
         {
           id: 'insta-v2',
-          title: 'Instagram V2 — ($185k sans travail de ma modèle)',
+          title: 'Instagram V2 — (17k€ sans travail de ma modèle)',
           duration: '20:33',
           video: null,
           lead: 'Vieux comptes qui ont de la "trust" + édition pour rendre les vidéos uniques.',
@@ -459,20 +469,16 @@ export const course = {
             ]},
             { type: 'p', text: 'J’ai un éditeur payé 4k/mois pour 20 vidéos/jour (recruté sur @OFM_Hire_Job). Il doit connaître les trends actuelles.' },
             { type: 'callout', variant: 'tip', title: 'Cross-reposting', text: 'Partage en story les reels de tes comptes secondaires entre eux, max 2 reels/story/jour pour ne pas avoir l’air spam. Organisé sur Monday.com.' },
-            { type: 'image', src: 'images/cf6c9670a831481fbd3079794b2416a1.jpg', caption: 'Organisation cross-reposting sur Monday.com (1)' },
-            { type: 'image', src: 'images/5695c29acca04ceeb0f85f3a47fae147.jpg', caption: 'Organisation cross-reposting sur Monday.com (2)' },
-            { type: 'image', src: 'images/3212ee541c854d54abcfce470d64d42d.jpg', caption: 'Organisation cross-reposting sur Monday.com (3)' },
-            { type: 'image', src: 'images/3212ee541c854d54abcfce470d64d42d-1.jpg', caption: 'Organisation cross-reposting sur Monday.com (4)' },
           ],
         },
         {
           id: 'insta-v3',
-          title: '2026 Instagram V3 — $2M En Tracking Link — Process Exact (Traffic 100% Dépendant d’Agence)',
+          title: '2026 Instagram V3 — Tracking Link — Process Exact (Traffic 100% Dépendant d’Agence)',
           duration: '24:37',
           video: null,
-          lead: 'Méthode 100% côté agence : +150k sans aucun travail de la modèle (au-delà de quelques TikToks).',
+          lead: 'Méthode 100% côté agence : +18k€ sans aucun travail de la modèle (au-delà de quelques TikToks).',
           blocks: [
-            { type: 'p', text: 'Ta modèle sera souvent feignante — c’est à nous de nous adapter et d’être meilleurs, c’est l’occasion de prouver notre valeur pour qu’elles restent. Voici comment j’ai apporté +150k sans aucun travail de la modèle.' },
+            { type: 'p', text: 'Ta modèle sera souvent feignante — c’est à nous de nous adapter et d’être meilleurs, c’est l’occasion de prouver notre valeur pour qu’elles restent. Voici comment j’ai apporté +18k€ sans aucun travail de la modèle.' },
             { type: 'h3', text: 'Compte principal vs secondaires' },
             { type: 'p', text: 'Le compte principal poste du contenu filmé directement sur Instagram (playback / danse) ou des TikToks téléchargés avec SnapTik. Pour les secondaires, quand tu n’as pas assez de contenu unique, édite les vidéos déjà postées pour les rendre originales aux yeux d’Instagram.' },
             { type: 'p', text: 'On combine ça avec un **lien de tracking** pour attribuer précisément le trafic généré et scaler ce qui convertit — c’est ce qui rend la méthode indépendante de la modèle et mesurable.' },
