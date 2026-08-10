@@ -493,10 +493,13 @@ h4 {
 }
 .callout .body {
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 .callout .body b {
   display: block;
-  margin-bottom: 3px;
+  margin-bottom: 0;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.07em;
